@@ -20,4 +20,4 @@ def train(df):
 
 if __name__ == "__main__":
     model, X_test, y_test = train(load_data())
-    print("Accuracy:", model.score(X_test, y_test))
+    print("Accuracy:", model.score(X_test, y_test))# test
